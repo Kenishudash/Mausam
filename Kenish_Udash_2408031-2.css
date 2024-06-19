@@ -1,0 +1,173 @@
+/* 
+    Name: Kenish Udash
+    ID: 2408031 
+*/
+
+/* Resetting default margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the search box container */
+.search-box-container {
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 0 auto 0;
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    flex: 1;
+}
+
+/* Styling for the search box and its input and button */
+.search-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the search box input */
+.search-box input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 1px;
+    font-size: 18px;
+}
+
+/* Styling for the search box button */
+.search-box button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 55px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+
+/* Styling for the search box button image */
+.search-box button img {
+    width: 40px;
+    background: white;
+    border-radius: 50%;
+}
+
+/* Styling for body background */
+body {
+    background: #ebfffc;
+}
+
+/* Styling for current date and country information */
+.current-date-country-info {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    background: #555;
+}
+
+/* Styling for city and country names */
+.city-country-name {
+    width: 200px;
+    font-size: 25px;
+}
+
+/* Styling for current date */
+.current-date {
+    width: 310px;
+    font-size: 25px;
+}
+
+/* Styling for current weather forecast */
+.current-weather-forecast {
+    background: white;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for current weather heading */
+.current-weather {
+    font-size: 70px;
+    background: #ebfffc;
+}
+
+/* Styling for weather condition */
+.weather-condition {
+    font-size: 25px;
+}
+
+/* Styling for current weather icon */
+.current-weather-forecast img {
+    width: 200px;
+    background: white;
+}
+
+/* Styling for current temperature */
+.current-temp {
+    font-size: 100px;
+}
+
+/* Styling for container holding additional weather information */
+.current-all-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex: 3;
+    border: solid 1px;
+    border-right: solid 1px;
+    font-size: 20px;
+    margin-top: 165px;
+}
+
+/* Styling for current humidity section */
+.current-humidity img {
+    display: flex;
+    width: 150px;
+}
+
+/* Styling for current pressure section */
+.current-pressure img {
+    display: flex;
+    width: 150px;
+}
+
+/* Styling for current wind speed section */
+.current-wind-speed img {
+    display: flex;
+    width: 150px;
+}
+
+/* Styling for humidity, pressure, and wind speed information */
+.humidity-info, .pressure-info, .wind-info {
+    font-size: 35px;
+}
+
+/* Styling for footer */
+footer {
+    background: black;
+    color: white;
+    font-size: 25px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+/* Styling for paragraph inside the footer */
+p {
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* Creating unnecessary space for better aesthetics */
